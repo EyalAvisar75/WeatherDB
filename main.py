@@ -2,6 +2,10 @@ import requests
 import json, pprint
 from pymongo import MongoClient
 
+# on a heavier project one should:
+# create a module for http requests
+# create a module for database work
+
 #https://www.weatherapi.com/my/
 # API Key: 011f134e8ef6447eaae54738202411
 #Base URL: http://api.weatherapi.com/v1/
